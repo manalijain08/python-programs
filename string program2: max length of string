@@ -1,0 +1,13 @@
+a=int(input("enter no. of strings :"))
+b=input("enter first string :")
+c=len(b)
+for i in range(0,a):
+    d=input("enter next srting :")
+    e=len(d)
+    if c<e:
+        c=e
+        b=d
+        f=d
+    else:
+        f=b
+print(f)
