@@ -1,0 +1,6 @@
+n="acropolis"
+m = ''
+for i in n:
+    if i not in m:
+        print(i, '= ', n.count(i))
+        m = m+i
